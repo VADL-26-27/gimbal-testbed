@@ -3,8 +3,8 @@ Test scripts for gimbal dev
 
 gimbal_testbed.ino uses the following pins on Arduino Uno R3:
 
-9 - pitch or roll
-10 - pitch or roll
+9 - pitch or roll,
+10 - pitch or roll,
 11 - pan
 
 The script takes the following commands over a serial console:
