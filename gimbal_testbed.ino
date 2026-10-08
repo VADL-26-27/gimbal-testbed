@@ -80,7 +80,6 @@ void loop() {
     else if (sscanf(input.c_str(), "%d %d %d", &a, &b, &c) == 3) {
       panning = false;
 
-
       // update these accordingly
       a = constrain(a, 0, 180);
       b = constrain(b, 0, 180);
@@ -90,7 +89,7 @@ void loop() {
       servo10.write(b);
       servo11.write(c);
 
-      panAngle = a;
+      panAngle = c;
 
       Serial.print("Angles: ");
       Serial.print(a);
