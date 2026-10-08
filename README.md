@@ -7,7 +7,7 @@ gimbal_testbed.ino uses the following pins on Arduino Uno R3:
 10 - pitch or roll,
 11 - pan
 
-The script takes the following commands over a serial console:
+The script takes the following commands over a serial console (easiest to just use Arduino IDE):
 
 "90 90 90" - sets positions of all three servos immediately. Sets 9 10 11 respectively.
 
