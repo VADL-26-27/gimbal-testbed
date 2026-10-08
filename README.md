@@ -13,4 +13,4 @@ The script takes the following commands over a serial console:
 
 "pan 150 50" - turns 11 to 150 deg heading at speed 50 deg/s. Used for yaw pan testing.
 
-Note: range of motion constraints may need to be adjusted according to configuration, they are set at 0-180 deg right now.
+Note: range of motion constraints will need to be adjusted according to configuration, they are set at 0-180 deg right now.
